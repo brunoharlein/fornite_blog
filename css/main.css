@@ -86,10 +86,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+nav {
+  margin-bottom: 50px;
+}
+
 main {
   width: 70%;
   margin: auto;
-  background-color: purple;
+  /* background-color: purple; */
+}
+
+article {
+  margin-bottom: 50px;
+}
+
+li {
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-color: #F5F4F6;
+}
+
+
+.jumbotron {
+  margin-bottom: 0em;
 }
 
 .img1 {
@@ -105,10 +128,6 @@ main {
 .small_picture {
   width: 20%;
   height: 20%;
-}
-
-li {
-  list-style: none;
 }
 /* ==========================================================================
    Helper classes
